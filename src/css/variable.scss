@@ -1,0 +1,26 @@
+@import 'reset';
+@import 'normalize';
+//字体颜色
+$fontColor:('.fblack':#442818,'.fgray':#BB9772,'.fwhite':#fff);
+@each $color,$colorValue in $fontColor{
+    #{$color}{
+        color:$colorValue;
+    }
+}
+$fblack:#442818;
+$fgray:#BB9772;
+$fwhite:#fff;
+$bopacity3:rgba(255,255,255,.9);
+$bopacity8:rgba(0,0,0,.8);
+$fontSize:('.navfont':18px,'.bigfont':16px,'.middlefont':14px,'.smallfont':12px);
+//nav标题18px  内容中大字16px（标题部分，首页的歌名，详情页的标题）  内容中中字14px（详情页大部分内容）  内容中小字12px（脚部最后）
+@each $size,$sizeValue in $fontSize{
+    #{$size}{
+        font-size:$sizeValue;
+    }
+}
+$navfont:18px;
+$bigfont:16px;
+$middlefont:14px;
+$smallfont:12px;
+$maxwidth:1200px;

@@ -1,0 +1,142 @@
+@import "variable";
+@import "iconfont";
+@import 'swiper.min';
+@import 'share';
+
+/*banner start*/
+.banner{
+    height: 13.7rem;
+}
+/*banner end*/
+
+/*菜单栏 start*/
+nav{
+    width: 100%;
+    background: $fblack url(../img/index_nav.png) no-repeat 0 10px;
+    background-size: 100%;
+    padding: 10px 0 0px;
+    height: 2.5rem;
+    li{
+        width: 25%;
+        text-align: center;
+        float: left;
+        margin-top: 40px;
+        line-height: 20px;
+        a{
+            color: $fwhite;
+            font-size: 16px;
+        }
+    }
+}
+/*菜单栏 end*/
+
+/*section start*/
+section{
+    .content{
+        margin-top: 10px;
+    }
+    #photos,#style{
+        margin-left: 10px;
+    }
+}
+.contetn_ul{
+    width: 100%;
+    li{
+        float: left;
+        width: 50%;
+        padding-right: 10px;
+        padding-top: 10px;
+        img{
+            width: 100%;
+        }
+    }
+}
+#base{
+    ul{
+        padding-left: 10px;
+    }
+    li{
+        img{
+            border-radius: 50%;
+        }
+        h3{
+            font-size: 22px;
+            color: $fblack;
+            text-align: center;
+            margin-top: 5px;
+        }
+        i{
+          display: block;
+          width: 100%;
+          height: 14px;
+          background: url(../img/index/index_base_icon.png) no-repeat center center;  
+        }
+    }
+}
+#style{
+    .style_tit{
+        .index_style_stit_wrap{
+            width: 35%;
+            margin-right: 6%;
+            float: left;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+        ul{
+            float: left;
+        }
+        li{
+            margin-bottom: 20px;
+            span{
+                font-size: 13px;
+                color: $fblack;
+                float: left;
+            }
+            span.style_tit_num{
+                color: $fgray;
+            }
+            i{
+                display: block;
+                float: left;
+                height: 14px;
+                width: 40px;
+                margin: 0 5px;
+                background: url(../img/index/index_style_stit_icon.png) no-repeat center center;
+            }
+        }
+    }
+    .style_content_ul{
+        padding-right: 10px;
+        margin-top: 20px;
+        li{
+            width: 100%;
+            border-bottom: 2px solid $fblack;
+            text-align: center;
+            padding-bottom: 10px;
+            .style_imgWrap{
+                height: 225px;
+                margin-bottom: 10px;
+                img{
+                    height: 100%;
+                }
+            }
+            h3,h4{
+                font-size: 24px;
+                color: $fblack;
+                float: left;
+                padding-left: 20px;
+            }
+            h3{
+                margin: 10px 0;
+            }
+            h4{
+                color: $fgray;
+            }
+        }
+    }
+}
+/*section end*/
+
+

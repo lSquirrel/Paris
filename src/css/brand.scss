@@ -1,0 +1,40 @@
+@import "variable";
+@import "iconfont";
+@import 'swiper.min';
+@import 'share';
+
+.section_content{
+    li{
+        position: relative;
+        h3{
+            margin: 20px 0;
+        }
+        hr{
+            background: $fgray;
+        }
+        .section_content_titicon{
+            color: $fgray;
+            background: $fwhite;
+            width: 80px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            position: absolute;
+            top: 35px;
+            left: 50%;
+            margin-left: -40px;
+            font-size: 36px;
+        }
+        h5{
+            text-align: left;
+            margin-top: 20px;
+        }
+        .banner img{
+            height: 220px;
+        }
+        .section_content_img{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+}

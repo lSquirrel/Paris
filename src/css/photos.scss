@@ -1,0 +1,27 @@
+@import "variable";
+@import "iconfont";
+@import 'swiper.min';
+@import 'share';
+
+/*section start*/
+.section_content{
+    width: 100%;
+    padding: 20px 5px;
+    li{
+        padding: 0px 5px;
+        float: left;
+        width: 50%;
+        img{
+            width: 100%;
+        }
+        h4{
+            color: $fblack;
+            margin-top: 10px;
+        }
+        h5{
+          color: $fgray;  
+          margin-bottom: 5px;
+        }
+    }
+}
+/*section end*/

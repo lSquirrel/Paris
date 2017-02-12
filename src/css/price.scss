@@ -1,0 +1,74 @@
+@import "variable";
+@import "iconfont";
+@import 'swiper.min';
+@import 'share';
+
+.section_content{
+    padding-left: 10px;
+    width: 100%;
+    .content_wrap{
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid $fgray;
+        h4{
+            color: $fblack;
+        }
+        .content1{
+            li{
+                width: 33.3%;
+                float: left;
+                padding-top: 10px;
+                padding-right: 10px;
+                div{
+                    text-align: center;
+                    width: 100%;
+                    color: $fblack;
+                    font-size: 16px;
+                    border: 1px solid $fgray;
+                    height: 30px;
+                    line-height: 30px;
+                }
+            }
+        }
+        .content2 li{
+            width: 50%;
+        }
+        .content3 li{
+            padding-left: 10px;
+            label{
+                font-size: 16px;
+            }
+        }
+        .contentDivClick{
+            background: $fgray;
+            color: $fwhite;
+        }
+        .phoneNumWrap{
+            width: 100%;
+            padding: 0 10px;
+            input{
+                border: 1px solid $fgray;
+                width: 100%;
+                font-size: 20px;
+                padding: 5px 10px;
+                color: $fblack;
+            }
+        }
+        .phoneButtonWrap{
+            margin-top: 20px;
+            width: 100%;
+            padding: 0 60px 0 70px;
+            input{
+                width: 100%;
+                height: 2em;
+                line-height: 2em;
+                background: $fblack;
+                text-align: center;
+                border: none;
+                color: $fwhite;
+                font-size: 24px;
+            }
+        }
+    }
+}
